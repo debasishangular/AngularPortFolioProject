@@ -1,0 +1,64 @@
+h2 {
+    text-align:center;
+    font-family: "Open Sans",sans-serif;
+    font-size: 36px;
+    line-height: 38px;
+    padding-bottom: 0;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0;
+
+    display: block;
+    font-size: 1.5em;
+ 
+    }
+
+    h3,h1{
+      text-align:center;
+      font-family: "Open Sans",sans-serif;
+    }
+
+#aboutme{
+
+    background-image: linear-gradient(to left bottom, #3a5ae9, #3a5ae9, #3a5ae9, #3a5ae9, #3a5ae9, #1572f4, #0087fb, #009bff, #00c1ff, #00dde2, #00f2a0, #bffb5f);
+
+        height: 700px;
+        color:white;
+        margin-top:50px;
+}    
+
+p {
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+#octagon {
+    width: 100px;
+    height: 100px;
+    background-image: url("../../assets/images/images_debasish.png");
+    position: relative;
+  }
+  #octagon:before {
+    content: "";
+    width: 100px;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 29px solid red;
+    border-left: 29px solid #eee;
+    border-right: 29px solid #eee;
+  }
+  #octagon:after {
+    content: "";
+    width: 100px;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 29px solid red;
+    border-left: 29px solid #eee;
+    border-right: 29px solid #eee;
+  } 
