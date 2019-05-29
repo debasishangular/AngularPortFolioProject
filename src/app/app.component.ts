@@ -1,4 +1,4 @@
-import { Component, HostListener, Inject } from '@angular/core';
+import { Component } from '@angular/core';
 
 
 @Component({
@@ -6,10 +6,9 @@ import { Component, HostListener, Inject } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent  {
   title = 'AngularPortFolio';
 
   constructor() {}
-
 
 }
